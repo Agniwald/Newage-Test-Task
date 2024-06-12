@@ -7,12 +7,12 @@
 #### Використані пакети Python
 Для побудови конкурентного пайплайну були використані наступні пакети Python:
 
-google.cloud - для взаємодії з BigQuery та авторизації Google.
-google.auth - для автентифікації Google.
-google.colab - для автентифікації користувача в середовищі Google Colab.
-gspread - для взаємодії з Google Sheets.
-pandas - для обробки даних та маніпуляцій з DataFrame.
-concurrent.futures - для паралельного виконання функцій.
+- google.cloud - для взаємодії з BigQuery та авторизації Google.
+- google.auth - для автентифікації Google.
+- google.colab - для автентифікації користувача в середовищі Google Colab.
+- gspread - для взаємодії з Google Sheets.
+- pandas - для обробки даних та маніпуляцій з DataFrame.
+- concurrent.futures - для паралельного виконання функцій.
 
 #### Час виконання
 Програма включає два підходи для отримання даних з BigQuery:
